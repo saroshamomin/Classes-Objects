@@ -2,12 +2,12 @@
 #Program Description: Import the Validation and Calculation classes. Create an object to access the
 #attributes of the class adn properly display the ROI to the user. 
 
-import Momin_Sarosha_HW8_Classes
+import ROI_Classes
 
 def main():
     #create an object for each class
-    roi_obj = Momin_Sarosha_HW8_Classes.CalculationClass()
-    value_obj = Momin_Sarosha_HW8_Classes.ValidationClass()
+    roi_obj = ROI_Classes.CalculationClass()
+    value_obj = ROI_Classes.ValidationClass()
     
     #get input from user
     initial = input("What is the initial value? ")
