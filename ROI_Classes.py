@@ -1,8 +1,5 @@
 #Author: Sarosha Momin
-#Homework Number & Name: Return on Investment HW8
-#Due Date: November 12
-#Program Description: Create a class that validates the initial and current value input from user, and a 
-#class that calculates the return on investment. 
+#Program Description: Create a class that validates the initial and current value input from user, and a class that calculates the return on investment. 
 
 class ValidationClass:              #class to validate input
     #validates input to be float
