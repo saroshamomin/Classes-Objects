@@ -1,8 +1,6 @@
 #Author: Sarosha Momin
-#Homework Number & Name: Return on Investment HW8
-#Due Date: November 12
-#Program Description: Import the Validation and Calculation classes. Create an object to access the
-#attributes of the class adn properly display the ROI to the user. 
+#Program Description: Import the Validation and Calculation classes. Create an object to access the attributes of the class adn properly display 
+#the Return on Investment to the user. 
 
 import Momin_Sarosha_HW8_Classes
 
@@ -11,11 +9,11 @@ def main():
     roi_obj = Momin_Sarosha_HW8_Classes.CalculationClass()
     value_obj = Momin_Sarosha_HW8_Classes.ValidationClass()
     
-    #get input from user
+    #get initial value input from user and validate it
     initial = input("What is the initial value? ")
     initial = value_obj.checkFloat(initial)
 
-    #validate input 
+    #get current value input from user and validate it
     current = input("What is the current value? ")
     current = value_obj.checkFloat(current)
 
