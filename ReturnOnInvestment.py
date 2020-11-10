@@ -1,6 +1,4 @@
 #Author: Sarosha Momin
-#Homework Number & Name: Return on Investment HW8
-#Due Date: November 12
 #Program Description: Import the Validation and Calculation classes. Create an object to access the
 #attributes of the class adn properly display the ROI to the user. 
 
